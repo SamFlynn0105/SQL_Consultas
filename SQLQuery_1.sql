@@ -14,8 +14,8 @@
 --FROM SalesLT.Product;
 
 --selecciona y concatena ',', size y color
---SELECT ProductNumber, Color, Size, Color + ',' + Size AS DetallesProduc
---FROM SalesLT.Product; 
+SELECT ProductNumber, Color, Size, Color + ',' + Size AS DetallesProduc
+FROM SalesLT.Product; 
 
 
 
